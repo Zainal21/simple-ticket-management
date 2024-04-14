@@ -1,8 +1,8 @@
-# ICP Technical Test
+# ICP Technical Test Frontend
 
 This project is used as a ICP Backend Developer Technical Test.
 
-### Stacks
+### 🚀 Stacks
 
 - Node v20.10.0 or more
 - Yarn 1.22.21 or more
