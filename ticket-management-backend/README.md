@@ -7,22 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Ticket Management
+## 📽️ About Ticket Management
 
 Simple Ticket Management using Laravel as Backend & React JS as Frontend.
 
-## Getting Started
+## 🌟 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Prerequiste
+## 🚀 Prerequiste
 
 -   [Composer](https://getcomposer.org/) - Download and Install Composer
 -   Minimum PHP 8.2
 -   MySQL
 -   Docker (Optional)
 
-## Tools
+## 🔑 Tools
 
 -   Terminal (OhMyZSH)
 -   Code Editor : Visual Studio Code
@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 -   GUI Database Management : DBeaver
 -   Container Management : Docker Desktop
 
-### Stacks
+### 🖥️ Stacks
 
 -   PHP 8.2
 -   Laravel 11

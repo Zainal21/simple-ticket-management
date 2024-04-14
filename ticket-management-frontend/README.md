@@ -10,6 +10,7 @@ This project is used as a ICP Backend Developer Technical Test.
 - Axios
 - React Beautiful Dnd
 - Sweetalert
+- TailwindCSS
 
 ## 💻 Local development setup
 
