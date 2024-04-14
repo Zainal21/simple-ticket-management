@@ -240,14 +240,14 @@ export default function TaskPage() {
                                     {task.title} -{" "}
                                     <Badge
                                       label={task.ticket_code}
-                                      color={"red"}
+                                      color={"blue"}
                                     />
                                   </h5>
                                   <span className="text-sm text-gray-500">
-                                    <Badge label={task.type} color={"red"} />
+                                    <Badge label={task.type} color={"blue"} />
                                   </span>
                                 </div>
-                                <Badge label={task.label} color={"red"} />
+                                <Badge label={task.label} color={"blue"} />
                               </div>
                               <div className="px-4 py-5 border-b border-gray-200">
                                 <div className="flex justify-between">
