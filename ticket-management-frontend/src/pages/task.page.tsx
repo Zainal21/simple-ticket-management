@@ -166,7 +166,12 @@ export default function TaskPage() {
                                     />
                                   </h5>
                                   <span className="text-sm text-gray-500">
-                                    <Badge label={task.type} color={"red"} />
+                                    <Badge
+                                      label={task.type}
+                                      color={
+                                        task.type == "Bug" ? "red" : "blue"
+                                      }
+                                    />
                                   </span>
                                 </div>
                                 <Badge label={task.label} color={"red"} />
@@ -244,7 +249,12 @@ export default function TaskPage() {
                                     />
                                   </h5>
                                   <span className="text-sm text-gray-500">
-                                    <Badge label={task.type} color={"blue"} />
+                                    <Badge
+                                      label={task.type}
+                                      color={
+                                        task.type == "Bug" ? "red" : "blue"
+                                      }
+                                    />
                                   </span>
                                 </div>
                                 <Badge label={task.label} color={"blue"} />
