@@ -39,7 +39,7 @@ export default function Footer() {
           </svg>
         </a>
         <a
-          href="https://github.com/Zainal21/dot-freelance-fullstack-test"
+          href="https://github.com/Zainal21"
           className="group"
           aria-label="Zainal21 on GitHub"
           target={"_blank"}
