@@ -26,36 +26,11 @@ export function createTask(payload: TaskPayload) {
   });
 }
 
-export function getTaskById(id: string) {
-  return axios({
-    method: "GET",
-    url: `${baseUrl}/classifications/${id}`,
-    headers: headerConfig,
-  });
-}
-
-export function updateTask(id: string, payload: TaskPayload) {
-  return axios({
-    method: "PATCH",
-    url: `${baseUrl}/api/${version}/tasks/${id}`,
-    headers: headerConfig,
-    data: payload,
-  });
-}
-
 export function updateLabelTaskById(id: string, payload: TaskUpdateLabel) {
   return axios({
     method: "PATCH",
     url: `${baseUrl}/api/${version}/tasks/label/${id}`,
     headers: headerConfig,
     data: payload,
-  });
-}
-
-export function deleteTaskById(id: string) {
-  return axios({
-    method: "DELETE",
-    url: `${baseUrl}/api/${version}/tasks/${id}`,
-    headers: headerConfig,
   });
 }
