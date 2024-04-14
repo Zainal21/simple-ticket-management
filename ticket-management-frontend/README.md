@@ -2,6 +2,15 @@
 
 This project is used as a ICP Backend Developer Technical Test.
 
+### Stacks
+
+- Node v20.10.0 or more
+- Yarn 1.22.21 or more
+- React TypeScript
+- Axios
+- React Beautiful Dnd
+- Sweetalert
+
 ## 💻 Local development setup
 
 Node.js `>= 20.x` is required and setup with [yarn](https://classic.yarnpkg.com/lang/en/docs/cli/add/) is recommended.
