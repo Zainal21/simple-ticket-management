@@ -54,6 +54,12 @@ cd ticket-management-backend
 composer install
 ```
 
+-   Setup your env variable based on your environment
+
+```
+cp .env.example .env
+```
+
 -   Run this command, to migrate the database to your local machine.
 
 ```
